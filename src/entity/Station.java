@@ -14,21 +14,24 @@ import entity.Home;
 
 public class Station extends BaseEntity {
 	
-	private int station_id;
-	private String name_station;
+	private int stationID;
+	private String nameStation;
 	private String address;
 	private String area;
 	private int available;
 	private int current;
+	private String imageUrl;
 	
+	
+
 	public Station() throws SQLException{
 		super();
 	}
 	
 	public Station(int id, String name, String address, String area, int available, int current) throws SQLException{
 		super();
-		this.station_id = id; 
-		this.name_station = name;
+		this.stationID = id; 
+		this.nameStation = name;
 		this.address = address;
 		this.area = area;
 		this.available = available;
@@ -99,17 +102,25 @@ public class Station extends BaseEntity {
 		return false;
 	}
 	
-	public int getId_station() {
-		return station_id;
+	public int getStationID() {
+		return stationID;
 	}
-	public void setId_station(int station_id) {
-		this.station_id = station_id;
+
+	public void setStationID(int stationID) {
+		this.stationID = stationID;
 	}
-	public String getName_station() {
-		return name_station;
+	public String getImageUrl() {
+		return imageUrl;
 	}
-	public void setName_station(String name_station) {
-		this.name_station = name_station;
+
+	public void setImageUrl(String imageUrl) {
+		this.imageUrl = imageUrl;
+	}
+	public String getNameStation() {
+		return nameStation;
+	}
+	public void setNameStation(String nameStation) {
+		this.nameStation = nameStation;
 	}
 	public String getAddress() {
 		return address;

@@ -14,4 +14,41 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/views/fxml/Invoice Screen.fxml</name>
+			<type>1</type>
+			<location>D:/Study document/Xây dựng phần mềm/Screen/Invoice Screen.fxml</location>
+		</link>
+		<link>
+			<name>src/views/fxml/Payment Screen.fxml</name>
+			<type>1</type>
+			<location>D:/Study document/Xây dựng phần mềm/Screen/Payment Screen.fxml</location>
+		</link>
+		<link>
+			<name>src/views/fxml/RentBike Screen.fxml</name>
+			<type>1</type>
+			<location>D:/Study document/Xây dựng phần mềm/Screen/RentBike Screen.fxml</location>
+		</link>
+		<link>
+			<name>src/views/fxml/Result Screen.fxml</name>
+			<type>1</type>
+			<location>D:/Study document/Xây dựng phần mềm/Screen/Result Screen.fxml</location>
+		</link>
+		<link>
+			<name>src/views/fxml/capstone home screen.fxml</name>
+			<type>1</type>
+			<location>D:/Study document/Xây dựng phần mềm/Screen/capstone home screen.fxml</location>
+		</link>
+		<link>
+			<name>src/views/fxml/capstone splash screen.fxml</name>
+			<type>1</type>
+			<location>D:/Study document/Xây dựng phần mềm/Screen/capstone splash screen.fxml</location>
+		</link>
+		<link>
+			<name>src/views/fxml/capstone station view.fxml</name>
+			<type>1</type>
+			<location>D:/Study document/Xây dựng phần mềm/Screen/capstone station view.fxml</location>
+		</link>
+	</linkedResources>
 </projectDescription>

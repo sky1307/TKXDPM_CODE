@@ -8,6 +8,5 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX15"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SQL"/>
-	<classpathentry kind="lib" path="/AIMS-Student/lib/sqlite-jdbc-3.7.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
