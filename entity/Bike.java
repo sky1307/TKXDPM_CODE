@@ -30,6 +30,13 @@ public class Bike extends BaseEntity {
 		this.barCode = barCode;
 	}
 	
+	public Bike(String barcode) {
+		super();
+		String sql ="";
+		ResultSet res = this.connectDatabase(sql);
+		
+	}
+	
 	
 	private int id_bike;
 	private int deposit;

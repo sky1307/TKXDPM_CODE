@@ -8,9 +8,9 @@ import entity.Station;
 import entity.Home;
 import java.util.*;
 
-public class ShowInfoController extends BaseController {
+public class RentalBikeController extends BaseController {
 	private Home home;
-	public ShowInfoController() {
+	public RentalBikeController() {
 		home = new Home();
 	}
 	
