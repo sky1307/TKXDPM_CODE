@@ -12,7 +12,11 @@ import java.util.logging.Logger;
 import entity.db.EcoBikeDB;
 import utils.Utils;
 import entity.Home;
-
+/**
+ * 
+ * @author sky
+ *
+ */
 public class PaymentTransaction extends BaseEntity {
 	public PaymentTransaction() throws SQLException {
 		super();

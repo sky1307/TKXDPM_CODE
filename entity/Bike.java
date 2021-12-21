@@ -30,11 +30,10 @@ public class Bike extends BaseEntity {
 		this.barCode = barCode;
 	}
 	
-	public Bike(String barcode) {
+	public Bike(String barcode) throws SQLException {
 		super();
 		String sql ="";
-		ResultSet res = this.connectDatabase(sql);
-		
+		ResultSet res = super.connectDatabase(sql);
 	}
 	
 	
